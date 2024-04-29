@@ -1,0 +1,198 @@
+body {
+    background-image: url('../resources/cookies3.jpeg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat;
+
+  }
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #dbfff4;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+header img {
+    height: 70px;
+    margin-right: 10px;
+    border-radius: 50px;
+
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin-left: 750px;
+
+}
+
+nav ul li {
+    display: inline-flex;
+    margin-right: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+
+}
+
+section {
+    padding: 50px 20px;
+}
+
+footer {
+    background-color: #f8d7da;
+    padding: 20px;
+    text-align: center;
+
+}
+.social-icons {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.social-icons li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-icons li:last-child {
+    margin-right: 0;
+}
+
+.social-icons li a img {
+    width: 30px;
+    height: 30px;
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px
+    
+}
+
+.producto {
+    background-color: #fff; 
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+}
+
+.producto img {
+    width: 300px;
+    height: 300px;
+}
+.producto button {
+    border-radius: 10px;
+    background-color: rgb(233, 180, 248);
+     
+}
+.wapp {
+    position: fixed;
+    top: 90%;
+    right: 10px;
+
+}
+.wapp button {
+    background-color: green;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+}
+
+#buscador {
+    margin-left: auto;
+    display: inline;
+    
+}
+#buscador button:hover {
+    background-color: #d3d9da;
+}
+input[type="checkbox"] {
+    position: relative; 
+    bottom: 300px; 
+    /* right: 2px;  */
+  }
+
+#preguntas-Frecuentes h2{
+    color: black;
+    background-color: #a6dcf3;
+    display: inline-block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: underline;
+}
+#preguntas-Frecuentes h3{
+    background-color: #333;
+    display: inline-block;
+    color: white;
+}
+.texto-faq {
+    background-color: rgba(57, 55, 55, 0.392);
+    border-radius: 10px;
+    color: #f7f6f8;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+ 
+  textarea {
+    width: 500px;
+    padding: 30px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    resize: none; 
+    box-sizing: border-box; 
+    font-family: Arial, sans-serif; 
+    font-size: 14px; 
+    line-height: 1.5;
+
+  }
+  
+ 
+  textarea:focus {
+    border-color: #007bff; 
+    outline: none; 
+  }
+  
+  textarea:disabled {
+    color: #666;
+    background-color: #f8f8f8;
+  }
+  #inicio {
+    margin: 10px;
+    padding: 5px;
+    background-color: rgba(57, 55, 55, 0.392);
+    border-radius: 20px;
+    
+  }
+  #inicio h2{
+    display: inline-block;
+    color: white;
+    text-transform: uppercase;
+    
+    
+  }
+  #inicio p{
+    color: #f7f6f8;
+    
+  }
+#productos h2{
+    color: rgb(251, 249, 249);
+}
+

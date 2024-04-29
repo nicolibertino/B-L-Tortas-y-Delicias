@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B&L Tortas y Delicias</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <img src="./resources/WhatsApp Image 2024-03-26 at 17.27.00 - copia.jpeg" alt="logo b&l">
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+                <li><a href="#faq">Preguntas Frecuentes</a></li>
+                <form id="buscador" action="#" method="get">
+                    <input type="text" id="buscar" name="buscar" placeholder="Buscar...">
+                    <button type="submit">Buscar</button>
+            </ul>
+        </nav>
+    </header>
+    <section id="inicio">
+        <h2>Bienvenidos a B&L Tortas y Delicias</h2>
+        <p>Hola!! Soy Shei, fundadora de B&L Pasteria Artesanal y mamá de Benja y Lucas. Este emprendimiento nace como un refuerzo economico, en el año 2020.</p>
+    </section>
+    <section id="productos">
+        <h2>Productos</h2>
+        <div class="grid-container">
+            <div class="producto">
+                <img src="./resources/torta-decorada2.jpeg" alt="torta-decorada">
+                <h3>Tortas Decoradas</h3>
+                <p>$20.000</p>
+                <button>Comprar</button>
+            </div>
+            <div class="producto">
+                <img src="./resources/cupcakes2.jpeg" alt="cupcakes">
+                <h3>Cupcakes</h3>
+                <p>$20.000</p>
+                <button>Comprar</button>
+            </div>
+            <div class="producto">
+                <img src="./resources/cookies.jpeg" alt="cookies">
+                <h3>Cookies</h3>
+                <p>$20.000</p>
+                <button>Comprar</button>
+            </div>
+
+        </div>
+    </section>
+    <section id="preguntas-Frecuentes">
+        <h2>Preguntas Frecuentes</h2>
+        <div>
+            <h3>Lorem ipsum dolor sit amet.?</h3>
+            <p class="texto-faq">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusantium aut iure quo, hic perferendis aliquam expedita labore a necessitatibus aperiam. Iste, quis! Blanditiis voluptatum vel facilis. Corporis ut voluptate praesentium ratione delectus! Molestias, et! Alias, repellat vitae unde eveniet facilis quaerat voluptates soluta cupiditate, amet ab in perferendis!</p> 
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit.?</h3>
+            <p class="texto-faq">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Soluta, molestias nam. Obcaecati expedita doloribus recusandae repudiandae, iste, praesentium a eaque quam at laborum aspernatur vitae eveniet quaerat laboriosam vero, impedit totam culpa maxime?</p>
+        </div>
+    </section>
+    <div class="wapp">
+        <button>Whatsapp</button>
+    </div>
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form action="#" method="get" class="form">
+            <input type="text" placeholder="Nombre y Apellido" name="nombre">
+            <input type="tel" id="telefono" name="telefono" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="Numero de Telefono" required>
+            <input type="text" placeholder="Email" name="mail">
+            <p>¿Queres suscribirte al newsletter?</p>
+            <input type="checkbox">
+            <textarea name="comentario" cols="50" rows="7"></textarea>
+            <input type="submit" value="Enviar">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6553.030781789507!2d-59.034021756369526!3d-34.79297323079575!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcf5ba1b3055d1%3A0x5ae27aaf668ecfb0!2sResto-Bar%20parrilla%20%22Los%20Tobianos%22%2C!5e0!3m2!1ses-419!2sar!4v1710455891485!5m2!1ses-419!2sar"
+                width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </form>
+    </section>
+    <footer class="footer">
+        © 2024 │ Todos los derechos reservados
+        <ul class="social-icons">
+            <li><a href="#"><img
+                src="https://static.vecteezy.com/system/resources/previews/023/986/613/non_2x/facebook-logo-facebook-logo-transparent-facebook-icon-transparent-free-free-png.png"
+                alt="Facebook"></a></li>
+            <li><a href="#"><img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/X_icon_2.svg/480px-X_icon_2.svg.png"
+                alt="Twitter"></a></li>
+            <li><a href="#"><img
+                src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/58/Instagram-Icon.png/1024px-Instagram-Icon.png"
+                alt="Instagram"></a></li>
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
